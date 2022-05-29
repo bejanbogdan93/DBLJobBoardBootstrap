@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DBL JobBoard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+
+    <script src="https://kit.fontawesome.com/156391d817.js" crossorigin="anonymous"></script>
+    <!-- <script src="js/general.js"></script> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<header>
+    <!-- NAV -->
+    <nav class="navbar sticky-top navbar-expand-md bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand pe-4" href="index.html">DB Language</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+      <li class="vr d-none d-md-block"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#OrdersTable">Orders</a>
+            </li>
+      <li class="vr d-none d-md-block"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Emails">EmailBox</a>
+            </li>
+      <li class="vr d-none d-md-block"></li>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#Contact"
+                  id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                Contact</a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#ContactDetails">Details</a></li>
+                  <li><hr class="dropdown-divider" /></li>                
+                  <li><a class="dropdown-item" href="#Repository">Repository</a></li>
+                </ul>
+
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search"/>
+            <button class="btn btn-outline-secondary ms-3" type="submit">Search</button>
+          </form>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-4 text-center">
+      <a class=""  href="index.html">
+        <img class="text-center" id="homeLogo" src="imgs/logo.png" alt="Business Logo" width="200px">
+      </a>
+    </div>
+</header>
+
+    <!-- Description -->
+<section class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-md-8">
+    <h2>Description</h2>
+    <p>Hi! I am Bogdan.</p>
+    <p>This is a section sample of the project I am currently working on.
+        The aim of the project is mainly to have a leaning path and, 
+        as a bonus, to create a fully working platform for my wife's business. </p>
+      </div>
+<aside class="col-md-4 text-md-center">
+    <h2>Stack:</h2>
+    <ul style="list-style-type: none;">
+        <li><i class="fa-solid fa-hashtag"></i> HTML</li>
+        <li><i class="fa-solid fa-hashtag"></i> Bootstrap</li>
+    </ul>
+  </aside>
+  </div>
+</section>
+
+<hr>
+<!-- Contact -->
+<section class="container-fluid mb-4" id="Contact">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 id="ContactDetails">Contact</h2>
+          
+      <div>Email: <strong>bejanbogdan93@gmail.com</strong></div>
+      <div>Telephone: <strong class="spread">+44 7574 56 53 19</strong></div>
+      <div>WhatsApp: <i class="fa-solid fa-check"></i> </div>
+            
+      <div class="description">LinkedIn: 
+        <a href="https://www.linkedin.com/in/bogdan-marius" target="_blank">Bogdan Bejan</a></div>
+    </div>
+    <div class="col-md-4 text-md-center">
+      <h2 id="Repository">Repository</h2>
+        
+      <div>The Code: <a href="#" target="_blank">GitHub</a></div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<!-- Orders Table -->
+<section class="container-xl" id="OrdersTable">
+  <div class="row">
+    <h2>Orders</h2>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Full name</th>
+            <th scope="col">Email address</th>
+            <th scope="col">Recorded</th>
+            <th scope="col">From</th>
+            <th scope="col">To</th>
+            <th scope="col">Document(s)</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+          <td scope="row">1</td>
+          <td>Eadie Cash</td>
+          <td>eadie.cash@gmail.com</td>
+          <td>Feb. 28, 2022, 10:36 a.m.</td>
+          <td>Portuguese</td>
+          <td>English</td>
+          <td>Birth Certificate</td>
+      </tr>
+      <tr>
+          <td scope="row">2</td>
+          <td>Arnold Barker</td>
+          <td>arnold_barker5@yahoo.com</td>
+          <td>May 15, 2022, 12:12 a.m.</td>
+          <td>None</td>
+          <td>None</td>
+          <td>Apostille application</td>
+      </tr>
+      <tr>
+          <td scope="row">3</td>
+          <td>Sadiyah Jenkins</td>
+          <td>sadiyah.Jen93@aol.com</td>
+          <td>Feb. 28, 2022, 10:36 a.m.</td>
+          <td>Italian</td>
+          <td>German</td>
+          <td>Diploma, Transcript of grades</td>
+      </tr>
+      <tr>
+          <td scope="row">4</td>
+          <td>Cain Valencia</td>
+          <td>valencia._cain@abc.com</td>
+          <td>May 15, 2022, 12:12 a.m.</td>
+          <td>Spanish</td>
+          <td>English</td>
+          <td>Marriage certificate</td>
+      </tr>
+      <tr>
+          <td scope="row">5</td>
+          <td>Cain Valencia</td>
+          <td>valencia._cain@abc.com</td>
+          <td>May 15, 2022, 12:12 a.m.</td>
+          <td>Spanish</td>
+          <td>English</td>
+          <td>Marriage certificate</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<hr>
+<!-- Emails -->
+<section class="container" id="Emails">
+  <div class="row">
+    <div>
+    
+      <div>
+        <h2>
+        <a href ="emails.html"><i class="fa-solid fa-arrows-rotate text-secondary"></i></a>
+        Emails
+      </h2>
+      </div>
+    
+    
+     
+    </div>
+
+     <a class="" href ="#">Today, 10:31A - Andrew Stan - andrewstan12@gmail.com</a>
+     <a class="" href ="#">Today, 2:40P - John Doe - doe93abc@yahoo.com</a>
+     <a class="" href ="#">Today, 3:02P - Constantine Ace - doe93abc@yahoo.com</a>
+
+  </div>
+</section>
+
+
+
+
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
